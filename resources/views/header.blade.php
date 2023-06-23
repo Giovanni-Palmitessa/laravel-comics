@@ -17,7 +17,7 @@
             <li><a>Fans</a></li>
             <li><a>News</a></li>
             <li><a>Shop</a></li>
-            <li><input type="text" placeholder="Search"></li>
+            <li><input class="form-control" type="text" placeholder="Search"></li>
           </ul>
         </div>
       </div>
