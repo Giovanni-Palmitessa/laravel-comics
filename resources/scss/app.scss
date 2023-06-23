@@ -81,3 +81,30 @@ ul {
       aspect-ratio: 1 / 1;
     }
   }
+
+.top-footer {
+    padding: 2rem 1rem;
+    background-color: #0282f9;
+    color: white;
+    font-size: 10px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .link img {
+    width: 50px;
+  }

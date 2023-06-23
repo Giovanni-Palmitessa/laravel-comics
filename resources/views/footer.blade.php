@@ -12,19 +12,20 @@
         </div>
 
         <div class="link">
-          <img src="../assets/img/buy-comics-subscriptions.png" />
+          <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png')}}" />
           <span>SUBSCRIPTION</span>
         </div>
 
         <div class="link">
-          <img src="../assets/img/buy-comics-shop-locator.png" />
+          <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png')}}" />
           <span>COMIC SHOP LOCATOR</span>
         </div>
 
         <div class="link">
-          <img src="../assets/img/buy-dc-power-visa.svg" />
+          <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg')}}" />
           <span>DC POWER VISA</span>
         </div>
       </div>
     </div>
-  </div>
+</div>
+

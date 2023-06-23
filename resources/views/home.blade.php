@@ -29,6 +29,9 @@
                 </div>
               </div>
             </div>
-          </main>
+        </main>
+
+        {{-- FOOTER --}}
+        @include('footer')
     </body>
 </html>
