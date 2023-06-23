@@ -15,7 +15,7 @@
             <div class="jumbotron"></div>
             <div class="container">
               <div class="main-content">
-                <div class="comics">
+                <div class="comics mb-3">
                     @foreach ($comics as $comic)
                     <div class="card p-2">
                         <img src="{{ Vite::asset($comic['thumb']) }}" alt="Comic" class="mb-3"/>
