@@ -27,6 +27,8 @@ ul {
     display: flex;
     gap: 1rem;
     li {
+        font-size: 1.3rem;
+        font-weight: 700;
       &:hover {
         cursor: pointer;
         color: #0282f9;
