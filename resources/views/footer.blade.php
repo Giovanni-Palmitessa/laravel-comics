@@ -83,3 +83,25 @@
       </div>
     </div>
 </div>
+
+<div class="additional-footer">
+    <div class="container">
+      <div class="additional-content">
+        <div class="sign-up">SIGN UP NOW!</div>
+
+        <div class="socials">
+          <span class="follow">FOLLOW US</span>
+
+          <img src="{{ Vite::asset('resources/img/footer-facebook.png')}}" alt="Facebook" />
+
+          <img src="{{ Vite::asset('resources/img/footer-twitter.png')}}" alt="Twitter" />
+
+          <img src="{{ Vite::asset('resources/img/footer-youtube.png')}}" alt="Youtube" />
+
+          <img src="{{ Vite::asset('resources/img/footer-periscope.png')}}" alt="Periscope" />
+
+          <img src="{{ Vite::asset('resources/img/footer-pinterest.png')}}" alt="Pinterest" />
+        </div>
+      </div>
+    </div>
+</div>
