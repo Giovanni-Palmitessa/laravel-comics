@@ -1,11 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-image: url("../img/picsum16.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1 {
-    color: red;
-}
+.container {
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .logo {
+    display: flex;
+  }
+  
+  .choose ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    li {
+      &:hover {
+        cursor: pointer;
+        color: $main-color;
+      }
+    }
+  }

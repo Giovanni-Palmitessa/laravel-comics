@@ -7,6 +7,6 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        
+        @include('header')
     </body>
 </html>
