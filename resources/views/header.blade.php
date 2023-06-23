@@ -2,7 +2,7 @@
     <div class="container">
       <div class="navbar">
         <div class="logo">
-          <img src="{{ Vite::asset('resources/img/dc-logo.png')}}../assets/img/dc-logo.png" alt="Dc Logo" />
+          <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Dc Logo" />
         </div>
 
         <div class="choose">
