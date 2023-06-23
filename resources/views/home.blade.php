@@ -16,10 +16,13 @@
             <div class="container">
               <div class="main-content">
                 <div class="comics">
+                    @foreach ($comics as $comic)
                     <div class="card">
-                        <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Dc Logo"/>
-                        <h6></h6>
-                      </div>
+                        {{-- <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Dc Logo"/> --}}
+                        <h6>{{ $comic['title'] }}</h6>
+                      </div> 
+                    @endforeach
+                    
                 </div>
                 <div class="learn-more">
                   <span class="button">LOAD MORE</span>
