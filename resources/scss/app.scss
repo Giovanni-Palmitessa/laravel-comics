@@ -6,6 +6,7 @@ body {
   
 ul {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .container {
@@ -107,4 +108,57 @@ ul {
   
   .link img {
     width: 50px;
+  }
+
+  .bottom-footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    padding: 2rem;
+  }
+  
+  .option {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  .ul-option {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .ul-sub-option {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .sub-option {
+    color: gray;
+    font-size: 0.6rem;
+  }
+  
+  .additional-footer {
+    padding: 1.5rem;
+    background-color: gray;
+  }
+  
+  .sign-up {
+    color: white;
+  }
+  .additional-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .follow {
+    color: #0282f9;
+    font-size: 1.3rem;
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
