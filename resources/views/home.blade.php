@@ -17,8 +17,8 @@
               <div class="main-content">
                 <div class="comics">
                     @foreach ($comics as $comic)
-                    <div class="card">
-                        <img src="{{ Vite::asset($comic['thumb']) }}" alt="Comic"/>
+                    <div class="card p-2">
+                        <img src="{{ Vite::asset($comic['thumb']) }}" alt="Comic" class="mb-3"/>
                         <h6>{{ $comic['title'] }}</h6>
                       </div> 
                     @endforeach

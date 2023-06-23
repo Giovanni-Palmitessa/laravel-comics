@@ -2,7 +2,6 @@
 
 body {
     font-family: sans-serif;
-    font-weight: 700;
 }
   
 ul {
@@ -67,9 +66,12 @@ ul {
 
   .card {
     width: calc((100% - 5rem) / 6);
+    background-color: lightslategray;
   
     h6 {
-      color: gray;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 700;
     }
     img {
       width: 100%;
