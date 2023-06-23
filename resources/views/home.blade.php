@@ -7,6 +7,25 @@
         @vite('resources/js/app.js')
     </head>
     <body>
+        {{-- HEADER --}}
         @include('header')
+
+        {{-- MAIN WITH JUMBOTRON --}}
+        <main>
+            <div class="jumbotron"></div>
+            <div class="container">
+              <div class="main-content">
+                <div class="comics">
+                    <div class="card">
+                        <img src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Dc Logo"/>
+                        <h6></h6>
+                      </div>
+                </div>
+                <div class="learn-more">
+                  <span class="button">LOAD MORE</span>
+                </div>
+              </div>
+            </div>
+          </main>
     </body>
 </html>
